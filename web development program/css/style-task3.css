@@ -1,0 +1,202 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+/* nav bar */
+header.top-header{
+    height: 800px;
+    background:url(../img/avento.gif);
+
+     background-size:cover;
+     
+
+}
+header.top-header ul li{
+    float: left;
+    list-style: none;
+    
+}
+header.top-header ul li.right {
+    float: right;
+    list-style: none;
+   
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header.top-header ul li a{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+header.top-header ul li a.button{
+    display:inline-block;
+    background-color:deepskyblue;
+    border-radius: 25px;
+    margin: 5px;
+    margin-top: 10px;
+}
+header.top-header ul li a:hover{
+    text-decoration: underline solid 5px;
+}
+header.top-header ul li a.button:hover{
+    background-color: dimgrey;
+}
+header div.container{
+    margin-top: 50px;
+    color: black;
+    margin-left: 5px;
+}
+header div.container p.para{
+    margin-left: 40px;
+    font-size: 20px;
+
+}
+header div.container a.button{
+
+    display:inline-block;
+    background-color:deepskyblue;
+    color:black;
+    border-radius: 25px;
+    margin: 5px;
+    margin-left: 150px;
+    text-decoration: none;
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+}  
+
+    header div.container a.button:hover{
+    background-color: dimgrey;
+    text-decoration: underline 5px black;
+
+}
+/* about me */
+section.about{
+    text-align: center;
+    padding: 25px;
+}
+
+.about-container div.matter,div.vector-img{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.about-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+div.matter{
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-container div.matter a.button{
+    background-color:deepskyblue;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-container div.matter a.button:hover{
+    color: lightseagreen;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+div.menu div.parts{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    color: dodgerblue;
+    
+}
+div.menu div.parts a{
+    text-decoration: none;
+    color: dimgrey;
+
+}
+
+div.menu::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+/* why me */
+.why-me .why-container .vector-art,.why-me .why-container .why-me-matter {
+    width: 50%;
+    float: left;
+}
+.why-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.why-me .why-container .why-me-matter{
+    display:inline-block;
+    margin-top: 150px;
+    font-size: 25px;
+}
+.contact-me{
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+.contact-me h2{
+    color: black;
+}
+
+.contact-img, .contact-details{
+    width: 50%;
+    float: left;
+}
+
+.contact-container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+/* contact */
+.contact-details{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.contact-details ul{
+    margin: 10px;
+}
+
+.button-2{
+    background-color: azure;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+

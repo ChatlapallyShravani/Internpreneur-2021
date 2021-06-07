@@ -1,0 +1,53 @@
+ .para 
+/* { */
+    /* color: crimson; */
+    /* border: crimson  solid  5px; */
+    {
+line-height: 30px;
+
+word-spacing: 10px;
+    }
+    .para:hover{
+        color: violet;
+        background-color: teal;
+        border: tomato dashed 5px;
+    }
+
+
+.heading{
+    border: chocolate solid 5px;
+    margin-top: 2px;
+    padding: 10px;
+    text-decoration: underline purple;
+}
+a{
+    text-decoration: none;
+}
+ol li{
+    list-style: none;
+}
+a:link{
+    color:rosybrown;
+}
+a:visited{
+    color: turquoise;
+
+}
+a:hover{
+    color: sienna;
+}
+a:active{
+    color: yellow;
+}
+p:last-child{
+    color: orangered;
+    background-color: palegoldenrod;
+
+}
+.cont:empty{
+    color: peru;
+    height: 100px;
+    width: 50px;
+    border: solid 5px red;
+    background-color: rosybrown;
+}

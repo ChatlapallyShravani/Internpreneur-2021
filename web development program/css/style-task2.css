@@ -1,0 +1,75 @@
+nav ul li {
+    display: inline-block;
+   
+}
+body .nav{
+   
+    text-align: center;
+    word-spacing: 60px;
+    background-color: blue;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+   
+}
+a:hover{
+    text-decoration: underline;
+    color:darkorange;
+}
+.para{
+    display: inline-block;
+    box-sizing: border-box;
+    border:crimson solid 5px;
+    height: 200px;
+    width: 700px;
+    margin: 20px 20px;
+
+}
+p:hover{
+    background-color: blanchedalmond;
+}
+.heading{    text-align: center;
+}
+.todo,.hobbies{
+    float: left;
+    margin:auto 300px;
+    line-height: 50px;
+    text-align: center;
+}
+.todo ul li,.hobbies ul li{
+    list-style: none;
+    font-size: 20px;
+}
+h2{
+    text-align:center;
+  
+}
+h2:hover{
+    color: coral;
+}
+.todo,.hobbies::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+footer h1{
+    text-align: center;
+}
+footer form{
+text-align: center;
+}
+form input{
+    width: 300px;
+}
+form textarea{
+    width: 300px; 
+}
+footer form{
+    background-color: blue;
+}
